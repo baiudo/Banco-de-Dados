@@ -79,7 +79,7 @@ create table if not exists editais (
   - `edital_tematica`: Tema do edital
   - `id_donatario_edital`: Referência ao donatário responsável pelo edital (chave estrangeira, associada à tabela `donatarios`)
   - `id_func_edital`: Referência ao funcionário responsável pelo edital (chave estrangeira, associada à tabela `funcionarios`)
-  - 
+
 ## **Tabela: Vistorias**
 
 A tabela `vistorias` armazena informações sobre as vistorias realizadas, incluindo os documentos, relatórios e os envolvidos.
